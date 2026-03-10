@@ -1,0 +1,54 @@
+package sistemaDeVendas;
+import java.awt.*; 
+import javax.swing.*;
+
+public class sistemasDeVendas {
+    public static void main(String[] args) {
+        JFrame sistemasDeVendas = new JFrame();
+        sistemasDeVendas.setTitle("Sistema de Vendas");
+        sistemasDeVendas.setSize(900, 600);
+        sistemasDeVendas.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        sistemasDeVendas.setLayout(new FlowLayout());
+        JMenuBar menuAcesso = new JMenuBar();
+        //Menu de acesso
+
+        //Acesso dos produtos
+        JMenu menuCadastro = new JMenu("Produtos");
+        JMenuItem itemCadastro = new JMenuItem("Novo Produto");
+        JMenuItem itemEditar = new JMenuItem("Editar Produto");
+        JMenuItem itemExcluir = new JMenuItem("Excluir Produto");
+        menuAcesso.add(menuCadastro);
+        menuCadastro.add(itemCadastro);
+        menuCadastro.add(itemEditar);
+        menuCadastro.add(itemExcluir);
+
+        //Acesso dos clientes
+        JMenu menuClientes = new JMenu("Clientes");
+        JMenuItem itemCadastroClientre = new JMenuItem("Novo Cliente");
+        JMenuItem itemEditarCliente = new JMenuItem("Editar Cliente");
+        JMenuItem itemVizualizarCliente = new JMenuItem("Visualizar Cliente");
+        menuAcesso.add(menuClientes);
+        menuClientes.add(itemCadastroClientre);
+        menuClientes.add(itemEditarCliente);
+        menuClientes.add(itemVizualizarCliente);
+
+
+        //Acesso a vendas
+        JMenu menuVendas = new JMenu ("Vendas");
+        JMenuItem itemHistoricoVendas = new JMenuItem("Histórico de Vendas");
+        JMenuItem itemRelatoriosVendas = new JMenuItem("Relatórios de Vendas");
+        menuAcesso.add(menuVendas);
+        menuVendas.add(itemHistoricoVendas);
+        menuVendas.add(itemRelatoriosVendas);
+
+
+
+
+
+
+
+
+        sistemasDeVendas.setJMenuBar(menuAcesso);
+        sistemasDeVendas.setVisible(true);
+    }
+}
