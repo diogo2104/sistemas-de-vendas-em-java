@@ -24,11 +24,11 @@ public class sistemasDeVendas {
 
         //Acesso dos clientes
         JMenu menuClientes = new JMenu("Clientes");
-        JMenuItem itemCadastroClientre = new JMenuItem("Novo Cliente");
+        JMenuItem itemCadastroCliente = new JMenuItem("Novo Cliente");
         JMenuItem itemEditarCliente = new JMenuItem("Editar Cliente");
         JMenuItem itemVizualizarCliente = new JMenuItem("Visualizar Cliente");
         menuAcesso.add(menuClientes);
-        menuClientes.add(itemCadastroClientre);
+        menuClientes.add(itemCadastroCliente);
         menuClientes.add(itemEditarCliente);
         menuClientes.add(itemVizualizarCliente);
 
