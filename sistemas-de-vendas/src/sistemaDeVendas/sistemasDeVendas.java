@@ -50,6 +50,9 @@ public class sistemasDeVendas {
         menuRelatorios.add(itemRelatorioClientes);
 
 
+        //Acesso a configurações
+
+
 
 
 
