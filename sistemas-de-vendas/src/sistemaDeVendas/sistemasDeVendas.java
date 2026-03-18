@@ -43,7 +43,7 @@ public class sistemasDeVendas {
 
        //Acesso a relatórios
         JMenu menuRelatorios = new JMenu("Relatórios");
-
+        JMenuItem itemRelatorioVendas = new JMenuItem("Relatório de Vendas");
 
 
 
