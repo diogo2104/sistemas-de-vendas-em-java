@@ -39,7 +39,7 @@ public class sistemasDeVendas {
         menuAcesso.add(menuVendas);
         menuVendas.add(itemHistoricoVendas);
         menuVendas.add(itemDashboardVendas);
-        menuVendas.add(itemRelatoriosVendas);
+        
 
        //Acesso a relatórios
         JMenu menuRelatorios = new JMenu("Relatórios");
