@@ -29,7 +29,6 @@ public class sistemasDeVendas {
         JMenuItem itemVizualizarCliente = new JMenuItem("Visualizar Cliente");
         menuAcesso.add(menuClientes);
         menuClientes.add(itemCadastroCliente);
-        menuClientes.add(itemEditarCliente);
         menuClientes.add(itemVizualizarCliente);
 
 
@@ -40,14 +39,6 @@ public class sistemasDeVendas {
         menuAcesso.add(menuVendas);
         menuVendas.add(itemHistoricoVendas);
         menuVendas.add(itemRelatoriosVendas);
-
-
-
-
-
-
-
-
         sistemasDeVendas.setJMenuBar(menuAcesso);
         sistemasDeVendas.setVisible(true);
     }
