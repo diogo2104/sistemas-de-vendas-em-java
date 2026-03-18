@@ -34,9 +34,11 @@ public class sistemasDeVendas {
         //Acesso a vendas
         JMenu menuVendas = new JMenu ("Vendas");
         JMenuItem itemHistoricoVendas = new JMenuItem("Histórico de Vendas");
+        JMenuItem itemDashboardVendas = new JMenuItem("Dashboard de Vendas");
         JMenuItem itemRelatoriosVendas = new JMenuItem("Relatórios de Vendas");
         menuAcesso.add(menuVendas);
         menuVendas.add(itemHistoricoVendas);
+        menuVendas.add(itemDashboardVendas);
         menuVendas.add(itemRelatoriosVendas);
         sistemasDeVendas.setJMenuBar(menuAcesso);
         sistemasDeVendas.setVisible(true);
