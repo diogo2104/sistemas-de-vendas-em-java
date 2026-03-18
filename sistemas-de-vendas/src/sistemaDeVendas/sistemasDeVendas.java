@@ -47,6 +47,7 @@ public class sistemasDeVendas {
         JMenuItem itemRelatorioClientes = new JMenuItem("Relatório de Clientes");
         menuAcesso.add(menuRelatorios);
         menuRelatorios.add(itemRelatorioVendas);
+        menuRelatorios.add(itemRelatorioClientes);
 
 
 
