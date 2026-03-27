@@ -56,6 +56,7 @@ public class sistemasDeVendas {
         JMenuItem itemConfigUsuario = new JMenuItem("Configurações de Usuário");
         menuAcesso.add(menuConfiguracoes);
         menuConfiguracoes.add(itemConfigGeral);
+        menuConfiguracoes.add(itemConfigUsuario);
 
 
   
