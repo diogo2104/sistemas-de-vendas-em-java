@@ -59,6 +59,10 @@ public class sistemasDeVendas {
         menuConfiguracoes.add(itemConfigUsuario);
 
 
+        //acesso a ajuda
+        JMenu menuAjuda = new JMenu("Ajuda");
+
+
   
 
 
