@@ -65,6 +65,8 @@ public class sistemasDeVendas {
         JMenuItem itemSuporte = new JMenuItem("Suporte");
         menuAcesso.add(menuAjuda);
         menuAjuda.add(itemDocumentacao);
+        menuAjuda.add(itemSuporte);
+        
 
 
 
