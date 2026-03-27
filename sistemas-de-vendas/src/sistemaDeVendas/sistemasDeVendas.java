@@ -52,6 +52,8 @@ public class sistemasDeVendas {
 
         //Acesso a configurações
         JMenu menuConfiguracoes = new JMenu("Configurações");
+        JMenuItem itemConfigGeral = new JMenuItem("Configurações Gerais");
+        
   
 
 
