@@ -61,6 +61,8 @@ public class sistemasDeVendas {
 
         //acesso a ajuda
         JMenu menuAjuda = new JMenu("Ajuda");
+        JMenuItem itemDocumentacao = new JMenuItem("Documentação");
+        
 
 
   
