@@ -11,7 +11,7 @@ public class sistemasDeVendas {
         sistemasDeVendas.setLayout(new FlowLayout());
         JMenuBar menuAcesso = new JMenuBar();
         //Menu de acesso
- 
+  
         //Acesso dos produtos
         JMenu menuCadastro = new JMenu("Produtos");
         JMenuItem itemCadastro = new JMenuItem("Novo Produto");
