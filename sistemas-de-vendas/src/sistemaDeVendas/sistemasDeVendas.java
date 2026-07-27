@@ -1,4 +1,4 @@
-package sistemaDeVendas; 
+package sistemaDeVendas;  
 import java.awt.*;    
 import javax.swing.*;          
                 
