@@ -4,7 +4,7 @@ import javax.swing.*;
                       
 public class sistemasDeVendas {              
     public static void main(String[] args) {   
-        JFrame sistemasDeVendas = new JFrame();   
+        JFrame sistemasDeVendas = new JFrame();    
         sistemasDeVendas.setTitle("Sistema de Vendas");
         sistemasDeVendas.setSize(900, 600);
         sistemasDeVendas.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
