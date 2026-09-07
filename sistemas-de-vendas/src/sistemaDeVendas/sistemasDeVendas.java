@@ -3,7 +3,7 @@ import java.awt.*;
 import javax.swing.*;                                    
    
                                    
-public class sistemasDeVendas {               
+public class sistemasDeVendas {                
     public static void main(String[] args) {   
         JFrame sistemasDeVendas = new JFrame();     
         sistemasDeVendas.setTitle("Sistema de Vendas");
