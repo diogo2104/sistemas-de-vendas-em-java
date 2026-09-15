@@ -2,7 +2,7 @@ package sistemaDeVendas;
 import java.awt.*;            
 import javax.swing.*;                    s
 
-          
+           
           
                                        
 public class sistemasDeVendas {                
