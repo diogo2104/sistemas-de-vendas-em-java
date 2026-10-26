@@ -3,7 +3,7 @@ import java.awt.*;
 import javax.swing.*;                       s
 
 
-                                                                                                                       
+                                                                                                                      
                                                        
 public class sistemasDeVendas {                 
     public static void main(String[] args) {   
